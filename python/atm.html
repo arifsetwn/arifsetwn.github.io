@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATM bagian 1</title>
+    <script
+      type="text/javascript"
+      src="//cdn.datacamp.com/dcl-react.js.gz"
+    ></script>
+  </head>
+  <body>
+    <div data-datacamp-exercise data-lang="python">
+      <code data-type="pre-exercise-code">
+        # kode ini akan dieksekusi pada saat awal dijalankan
+      </code>
+      <code data-type="sample-code">
+
+
+        # saldo awal 500
+        saldo = [500]
+        print('saldo awal :', saldo)
+        
+        # setor uang 200
+        saldo.append(200)
+        
+        # setor uang 100
+        saldo.append(100)
+        
+        # cetak saldo
+        print('saldo saat ini setelah setor 200 dan 100:')
+        print(sum(saldo))
+        
+        # tarik uang 150
+        saldo.append(-150)
+        
+        # cetak saldo
+        print('saldo saat ini setelah tarik 150:')
+        print(sum(saldo))
+        
+        # transfer uang 300
+        saldo.append(-300)
+        
+        # cetak saldo
+        print('saldo saat ini setelah transfer 300:')
+        print(sum(saldo))
+        
+        # cetak list
+        print('cetak list saldo')
+        print(saldo)
+                   
+      </code>
+      <code data-type="solution">
+       
+      </code>
+      <code data-type="sct">
+        test_function("print") 
+        success_msg("Great job!")
+      </code>
+      <div data-type="hint">
+        Klik tombol <code>Submit</code> untuk menjalankan kode
+      </div>
+    </div>
+  </body>
+</html>
