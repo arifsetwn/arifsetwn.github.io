@@ -49,6 +49,10 @@ params:
           enabled: true
           title: "Arif Setiawan"
           subtitle: "Dosen & Peneliti — Pendidikan Teknik Informatika (PTI), FKIP Universitas Muhammadiyah Surakarta (UMS). Fokus pada pemanfaatan AI, VR/AR, dan media digital untuk pembelajaran adaptif."
+          imageUrl: picture.jpeg
+          imageWidth: 150
+          imageHeight: 150
+          imageTitle: "Arif Setiawan, S.Kom., M.Eng."
           buttons:
             - name: Tentang
               url: tentang/
