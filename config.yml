@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://arifsetwn.github.io/"
+title: "Arif Setiawan"
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -7,31 +7,24 @@ enableRobotsTXT: true
 pagination:
   pagerSize: 20
 
-taxonomies:
-    tag: tags
-
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Tentang
+          url: tentang/
+          weight: 1
+        - name: Riset
+          url: riset/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Pengajaran
+          url: pengajaran/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Kontak
+          url: kontak/
+          weight: 4
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
-    # googleAnalyticsID: G-XXXXX
+    description: "Website pribadi dan portofolio akademik Arif Setiawan, S.Kom., M.Eng. — Dosen & Peneliti Pendidikan Teknik Informatika (PTI) FKIP Universitas Muhammadiyah Surakarta."
+    author: "Arif Setiawan, S.Kom., M.Eng."
     DateFormat: January 2006
     defaultTheme: light
     hideFooter: false
@@ -44,60 +37,37 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: [books, courses, papers, data]
+    MainSections: [riset, pengajaran, tentang]
     ShowToc: false
     disableScrollToTop: true
-    TocOpen: true
+    TocOpen: false
     ShowWordCount: false
-    UseHugoToc: true
+    UseHugoToc: false
     comments: false
-    math: true
+    math: false
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: picture.jpeg
-          imageWidth: 160
-          imageHeight: 160
+          title: "Arif Setiawan"
+          subtitle: "Dosen & Peneliti — Pendidikan Teknik Informatika (PTI), FKIP Universitas Muhammadiyah Surakarta (UMS). Fokus pada pemanfaatan AI, VR/AR, dan media digital untuk pembelajaran adaptif."
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Tentang
+              url: tentang/
+            - name: Riset & Publikasi
+              url: riset/
+            - name: Pengajaran & Modul
+              url: pengajaran/
+            - name: Kontak
+              url: kontak/
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
         - name: Email
-          url: mailto:user@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/user
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:arif.setiawan@ums.ac.id
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/arifsetiawan90/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=user
+          url: https://scholar.google.com/citations?hl=id&user=l1JmHE8AAAAJ
         - name: GitHub
-          url: https://github.com/user
-        - name: YouTube
-          url: https://www.youtube.com/@user
-        - name: Substack
-          url: https://user.substack.com
-        - name: Twitter
-          url: https://x.com/user
-        - name: Bluesky
-          url: https://bsky.app/profile/user.bsky.social
+          url: https://github.com/arifsetwn
 
     assets:
         disableScrollBarStyle: true
@@ -105,7 +75,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: Moritz-Maria von Igelfeld
+      text: "Arif Setiawan"
       icon: favicon.ico
       iconHeight: 18
 
@@ -115,8 +85,4 @@ markup:
             unsafe: true
     highlight:
         guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+        style: autumn
