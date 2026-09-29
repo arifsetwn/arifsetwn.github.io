@@ -64,14 +64,17 @@ params:
               url: kontak/
 
     socialIcons:
-        - name: Email
-          url: mailto:arif.setiawan@ums.ac.id
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/arifsetiawan90/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?hl=id&user=l1JmHE8AAAAJ
-        - name: GitHub
-          url: https://github.com/arifsetwn
+        - name: email
+          url: "mailto:arif.setiawan@ums.ac.id"
+        - name: ums
+          title: "Profil Resmi UMS"
+          url: "https://www.ums.ac.id/profile/arif-setiawan"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/arifsetiawan90/"
+        - name: google scholar
+          url: "https://scholar.google.com/citations?hl=id&user=l1JmHE8AAAAJ"
+        - name: github
+          url: "https://github.com/arifsetwn"
 
     assets:
         disableScrollBarStyle: true
