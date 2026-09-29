@@ -14,10 +14,10 @@ Saya mengampu perkuliahan di **Program Studi Pendidikan Teknik Informatika (PTI)
   Dasar-dasar logika pemrograman, struktur data dasar, fungsi, modul, serta pemecahan masalah komputasional dengan bahasa Python.
 - **Pemrograman Web**  
   Arsitektur web modern, HTML5, CSS3, JavaScript, framework backend, integrasi API, dan perancangan aplikasi web edukasi.
-- **Media Pembelajaran Interaktif & VR/AR**  
-  Prinsip desain media pembelajaran digital, perancangan pengalaman belajar (*Learning Experience Design*), dan simulasi interaktif.
-- **Data Analytics & Visualisasi Data**  
-  Pengolahan data pendidikan, pembuatan dashboard performa belajar, dan penggunaan tools analitik seperti Google Looker Studio / Data Studio.
+- **Pemrograman Web Lanjut**  
+  Implementasi framework web modern seperti Laravel, Next.js, dan Vue.js untuk membangun aplikasi web yang terstruktur dan responsif.
+- **Pengembangan Aplikasi Mobile**  
+  Pengembangan aplikasi untuk platform Android dan iOS menggunakan Flutter.
 
 ---
 
