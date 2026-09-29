@@ -48,7 +48,7 @@ params:
     profileMode:
           enabled: true
           title: "Arif Setiawan"
-          subtitle: "Dosen & Peneliti — Pendidikan Teknik Informatika (PTI), FKIP Universitas Muhammadiyah Surakarta (UMS). Fokus pada pemanfaatan AI, VR/AR, dan media digital untuk pembelajaran adaptif."
+          subtitle: "Halo, nama saya Arif Setiawan. Saya adalah Dosen di Program Studi Pendidikan Teknik Informatika di Universitas Muhammadiyah Surakarta. Perjalanan akademik saya dimulai dari gelar sarjana di Teknik Informatika UIN Sunan Kalijaga dan magister di bidang Teknologi Informasi Universitas Gadjah Mada. Saat ini, saya aktif mengajar dan melakukan penelitian tentang teknologi pendidikan, pengembangan media pembelajaran, rekayasa perangkat lunak, dan kecerdasan buatan dalam pendidikan."
           imageUrl: picture.jpeg
           imageWidth: 150
           imageHeight: 150
